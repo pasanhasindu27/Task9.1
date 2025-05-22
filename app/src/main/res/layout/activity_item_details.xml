@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ItemDetailsActivity">
+
+    <TextView
+        android:id="@+id/itemTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        tools:text="Lost Phone" />
+
+    <TextView
+        android:id="@+id/itemDaysAgoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        tools:text="12/05/2023" />
+
+    <TextView
+        android:id="@+id/itemLocationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        tools:text="At Deakin University" />
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove This Item"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
